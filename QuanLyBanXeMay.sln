@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanXeMay", "QuanLyBanXeMay\QuanLyBanXeMay.csproj", "{4A8725D4-CB1F-4D47-B2C2-BD60833E1DDA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CaiDatUngDung", "CaiDatUngDung\CaiDatUngDung.vdproj", "{123C1606-6BF0-4A05-ACCF-54F6FE06C5A8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuanLyBanXe", "QuanLyBanXe\QuanLyBanXe.vdproj", "{2F3BB5E0-8210-4731-A1D4-BE1537DBC806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8725D4-CB1F-4D47-B2C2-BD60833E1DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8725D4-CB1F-4D47-B2C2-BD60833E1DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8725D4-CB1F-4D47-B2C2-BD60833E1DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8725D4-CB1F-4D47-B2C2-BD60833E1DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123C1606-6BF0-4A05-ACCF-54F6FE06C5A8}.Debug|Any CPU.ActiveCfg = Debug
+		{123C1606-6BF0-4A05-ACCF-54F6FE06C5A8}.Release|Any CPU.ActiveCfg = Release
+		{2F3BB5E0-8210-4731-A1D4-BE1537DBC806}.Debug|Any CPU.ActiveCfg = Debug
+		{2F3BB5E0-8210-4731-A1D4-BE1537DBC806}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B4F6641-7533-4189-B04E-65AD9424B5F9}
+	EndGlobalSection
+EndGlobal

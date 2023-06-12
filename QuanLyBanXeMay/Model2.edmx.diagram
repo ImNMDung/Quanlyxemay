@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d87bf93fd4624fa2a3cc6ed4fd087947" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBXemayModel.ChiTietHoaDon" Width="1.5" PointX="8.875" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBXemayModel.ChiTietXeMay" PointX="9.625" PointY="6.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBXemayModel.HoaDon" Width="1.5" PointX="6" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBXemayModel.KhachHang" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBXemayModel.NhanVien" Width="1.5" PointX="3.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBXemayModel.XeMay" Width="1.5" PointX="7.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="QLBXemayModel.FK_ChiTietHoaDon_ChiTietXeMay" />
+        <AssociationConnector Association="QLBXemayModel.FK_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="QLBXemayModel.FK_ChiTietXeMay_XeMay" />
+        <AssociationConnector Association="QLBXemayModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBXemayModel.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QLBXemayModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
